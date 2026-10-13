@@ -7,7 +7,12 @@ import { createRoot } from "react-dom/client";
 //import Sizing from "./PracticeTaiwind/Sizing";
 //import FlexBox from "./PracticeTaiwind/FlexBox";
 //import Grids from "./PracticeTaiwind/Grids";
-import ZIndex from "./PracticeTaiwind/ZIndex";
+//import ZIndex from "./PracticeTaiwind/ZIndex";
+//import FontSize from "./PracticeTaiwind/FontSize";
+//import BgColor from "./PracticeTaiwind/BgColor";
+// import Borders from "./PracticeTaiwind/Borders";
+// import Responsive from "./PracticeTaiwind/Responsive";
+import Focus from "./PracticeTaiwind/Focus";
 import "./index.css";
 
 createRoot(document.getElementById("root")).render(
@@ -19,6 +24,11 @@ createRoot(document.getElementById("root")).render(
     {/* <Sizing/> */}
     {/* <FlexBox/> */}
     {/* <Grids/> */}
-    <ZIndex/>
+    {/* <ZIndex/> */}
+    {/* <FontSize/> */}
+    {/* <BgColor/> */}
+      {/* <Borders/> */}
+      {/* <Responsive/> */}
+  <Focus/>
   </StrictMode>
 );
