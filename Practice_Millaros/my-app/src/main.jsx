@@ -15,7 +15,8 @@ import { createRoot } from "react-dom/client";
 // import Focus from "./PracticeTaiwind/Focus";
 // import DarkMode from "./PracticeTaiwind/DarkMode";
 // import OverFlow from "./PracticeTaiwind/OverFlow";
-import Animation from "./PracticeTaiwind/Animation";
+// import Animation from "./PracticeTaiwind/Animation";
+import PracticeProps from "./PracticeReact/PracticeProps";
 import "./index.css";
 
 createRoot(document.getElementById("root")).render(
@@ -35,6 +36,7 @@ createRoot(document.getElementById("root")).render(
   {/* <Focus/> */}
   {/* <DarkMode/> */}
   {/* <OverFlow/> */}
-  <Animation/>
+  {/* <Animation/> */}
+  <PracticeProps/>
   </StrictMode>
 );
