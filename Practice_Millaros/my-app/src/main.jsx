@@ -12,7 +12,10 @@ import { createRoot } from "react-dom/client";
 //import BgColor from "./PracticeTaiwind/BgColor";
 // import Borders from "./PracticeTaiwind/Borders";
 // import Responsive from "./PracticeTaiwind/Responsive";
-import Focus from "./PracticeTaiwind/Focus";
+// import Focus from "./PracticeTaiwind/Focus";
+// import DarkMode from "./PracticeTaiwind/DarkMode";
+// import OverFlow from "./PracticeTaiwind/OverFlow";
+import Animation from "./PracticeTaiwind/Animation";
 import "./index.css";
 
 createRoot(document.getElementById("root")).render(
@@ -29,6 +32,9 @@ createRoot(document.getElementById("root")).render(
     {/* <BgColor/> */}
       {/* <Borders/> */}
       {/* <Responsive/> */}
-  <Focus/>
+  {/* <Focus/> */}
+  {/* <DarkMode/> */}
+  {/* <OverFlow/> */}
+  <Animation/>
   </StrictMode>
 );
