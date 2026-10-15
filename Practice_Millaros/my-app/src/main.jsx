@@ -16,7 +16,8 @@ import { createRoot } from "react-dom/client";
 // import DarkMode from "./PracticeTaiwind/DarkMode";
 // import OverFlow from "./PracticeTaiwind/OverFlow";
 // import Animation from "./PracticeTaiwind/Animation";
-import PracticeProps from "./PracticeReact/PracticeProps";
+// import PracticeProps from "./PracticeReact/PracticeProps";
+import RegisterForm from "./PracticeReact/RegisterForm";
 import "./index.css";
 
 createRoot(document.getElementById("root")).render(
@@ -37,6 +38,7 @@ createRoot(document.getElementById("root")).render(
   {/* <DarkMode/> */}
   {/* <OverFlow/> */}
   {/* <Animation/> */}
-  <PracticeProps/>
+  {/* <PracticeProps/> */}
+  <RegisterForm/>
   </StrictMode>
 );

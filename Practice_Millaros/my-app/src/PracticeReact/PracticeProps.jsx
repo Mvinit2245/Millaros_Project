@@ -1,8 +1,9 @@
 function Student({ name, course }) {
   return (
     <div>
-      <h2>{name}</h2>
+      <h2> Name : {name}</h2>
       <p>Course: {course}</p>
+      <br></br>
     </div>
   );
 }
@@ -20,6 +21,7 @@ function PracticeProps() {
   return (
     <div>
       <Student name="Rahul" course="React JS" />
+      <Student name="Vinit" course="Java" />
       <Student name="Priya" course="JavaScript" />
 
       <Card title="About React">
