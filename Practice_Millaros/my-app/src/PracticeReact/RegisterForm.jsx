@@ -6,6 +6,7 @@ function RegisterForm() {
     name: "",
     email: "",
     password: "",
+    confirmPassword: "",
   });
 
   const [error, setError] = useState("");
@@ -36,6 +37,11 @@ function RegisterForm() {
 
     if (form.password.length < 8) {
       setError("Password must contain at least 8 characters.");
+      return;
+    }
+
+    if (form.confirmPassword != form.password) {
+      setError("Password does not match");
       return;
     }
 
@@ -74,6 +80,14 @@ function RegisterForm() {
           value={form.password}
           onChange={handleChange}
           placeholder="Password (minimum 8 characters)"
+          className="w-full rounded-lg border p-3"
+        />
+        <input
+          name="confirmPassword"
+          type="password"
+          value={form.confirmPassword}
+          onChange={handleChange}
+          placeholder="Confirm Password"
           className="w-full rounded-lg border p-3"
         />
 

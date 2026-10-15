@@ -17,7 +17,8 @@ import { createRoot } from "react-dom/client";
 // import OverFlow from "./PracticeTaiwind/OverFlow";
 // import Animation from "./PracticeTaiwind/Animation";
 // import PracticeProps from "./PracticeReact/PracticeProps";
-import RegisterForm from "./PracticeReact/RegisterForm";
+// import RegisterForm from "./PracticeReact/RegisterForm";
+import Modals from "./PracticeReact/Modals";
 import "./index.css";
 
 createRoot(document.getElementById("root")).render(
@@ -39,6 +40,7 @@ createRoot(document.getElementById("root")).render(
   {/* <OverFlow/> */}
   {/* <Animation/> */}
   {/* <PracticeProps/> */}
-  <RegisterForm/>
+  {/* <RegisterForm/> */}
+  <Modals/>
   </StrictMode>
 );
