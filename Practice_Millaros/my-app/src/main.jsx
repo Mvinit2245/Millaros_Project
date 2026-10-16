@@ -18,7 +18,9 @@ import { createRoot } from "react-dom/client";
 // import Animation from "./PracticeTaiwind/Animation";
 // import PracticeProps from "./PracticeReact/PracticeProps";
 // import RegisterForm from "./PracticeReact/RegisterForm";
-import Modals from "./PracticeReact/Modals";
+// import Modals from "./PracticeReact/Modals";
+// import Conditional from "./PracticeReact/Conditional";
+import Lists from "./PracticeReact/Lists";
 import "./index.css";
 
 createRoot(document.getElementById("root")).render(
@@ -41,6 +43,8 @@ createRoot(document.getElementById("root")).render(
   {/* <Animation/> */}
   {/* <PracticeProps/> */}
   {/* <RegisterForm/> */}
-  <Modals/>
+  {/* <Modals/> */}
+  {/* <Conditional/> */}
+  <Lists/>
   </StrictMode>
 );
