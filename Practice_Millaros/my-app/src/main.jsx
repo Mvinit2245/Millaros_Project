@@ -1,6 +1,7 @@
 
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
+import "./index.css";
 // import App from "./App.jsx";
 //import Utility from "./Utility.jsx";
 //import Gaps from "./PracticeTaiwind/Gaps.jsx";
@@ -25,7 +26,8 @@ import { createRoot } from "react-dom/client";
 // import LoginPage from "./PracticeReact/LoginPage";
 // import Design from "./Figmadesign/Design";
 // import "./index.css";
-import Practice from "./Figmadesign/Practice";
+// import Practice from "./Figmadesign/Practice";
+import Practice1 from "./ReusePractice/Practice1";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -53,7 +55,7 @@ createRoot(document.getElementById("root")).render(
   {/* <Forms/> */}
   {/* <LoginPage/> */}
   {/* <Design/> */}
-  <Practice/>
+  <Practice1/>
 
   </StrictMode>
 );
