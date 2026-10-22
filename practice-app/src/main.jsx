@@ -4,11 +4,13 @@ import './index.css'
 import App from './App.jsx'
 import Login from './PracticeComponents/Login.jsx'
 import CardUse from './PracticeComponents/CardUse.jsx'
+import InputUse from './PracticeComponents/InputUse.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App /> */}
-    <Login/>
+    {/* <Login/> */}
      {/* <CardUse/> */}
+     <InputUse/>
   </StrictMode>,
 )
