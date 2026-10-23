@@ -5,12 +5,14 @@ import App from './App.jsx'
 import Login from './PracticeComponents/Login.jsx'
 import CardUse from './PracticeComponents/CardUse.jsx'
 import InputUse from './PracticeComponents/InputUse.jsx'
+import ChildrenUse from './PracticeComponents/ChildrenUse.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App /> */}
     {/* <Login/> */}
      {/* <CardUse/> */}
-     <InputUse/>
+     {/* <InputUse/> */}
+     <ChildrenUse/>
   </StrictMode>,
 )
