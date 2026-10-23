@@ -6,6 +6,7 @@ import Login from './PracticeComponents/Login.jsx'
 import CardUse from './PracticeComponents/CardUse.jsx'
 import InputUse from './PracticeComponents/InputUse.jsx'
 import ChildrenUse from './PracticeComponents/ChildrenUse.jsx'
+import PagesUse from './PracticeComponents/PagesUse.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -13,6 +14,7 @@ createRoot(document.getElementById('root')).render(
     {/* <Login/> */}
      {/* <CardUse/> */}
      {/* <InputUse/> */}
-     <ChildrenUse/>
+     {/* <ChildrenUse/> */}
+     <PagesUse/>
   </StrictMode>,
 )
