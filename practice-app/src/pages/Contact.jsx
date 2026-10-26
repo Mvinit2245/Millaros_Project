@@ -14,14 +14,14 @@ function Contact() {
       >
         <input
           type="text"
-          placeholder="Vinit MOrankar"
+          placeholder="Your Name"
           required
           className="w-full border rounded-lg p-3"
         />
 
         <input
           type="email"
-          placeholder="vin@gmail.com"
+          placeholder="Your Email"
           required
           className="w-full border rounded-lg p-3"
         />
