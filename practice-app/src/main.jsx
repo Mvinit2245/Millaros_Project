@@ -7,6 +7,7 @@ import CardUse from './PracticeComponents/CardUse.jsx'
 import InputUse from './PracticeComponents/InputUse.jsx'
 import ChildrenUse from './PracticeComponents/ChildrenUse.jsx'
 import PagesUse from './PracticeComponents/PagesUse.jsx'
+import Popup from './components/PopUp.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -15,6 +16,7 @@ createRoot(document.getElementById('root')).render(
      {/* <CardUse/> */}
      {/* <InputUse/> */}
      {/* <ChildrenUse/> */}
-     <PagesUse/>
+     {/* <PagesUse/> */}
+     <Popup/>
   </StrictMode>,
 )
