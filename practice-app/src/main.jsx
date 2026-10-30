@@ -8,6 +8,9 @@ import InputUse from './PracticeComponents/InputUse.jsx'
 import ChildrenUse from './PracticeComponents/ChildrenUse.jsx'
 import PagesUse from './PracticeComponents/PagesUse.jsx'
 import Popup from './components/PopUp.jsx'
+import Users from './PracticeComponents/Users.jsx'
+import UserPopup from './PracticeComponents/UserPopup.jsx'
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -17,6 +20,8 @@ createRoot(document.getElementById('root')).render(
      {/* <InputUse/> */}
      {/* <ChildrenUse/> */}
      {/* <PagesUse/> */}
-     <Popup/>
+     {/* <Popup/> */}
+     {/* <Users/> */}
+     <UserPopup/>
   </StrictMode>,
 )

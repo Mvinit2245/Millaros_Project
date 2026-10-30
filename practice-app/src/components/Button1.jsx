@@ -1,3 +1,4 @@
+
 function Button1({ text, color = "blue", onClick }) {
   const colors = {
     blue: "bg-blue-600 hover:bg-blue-700",
@@ -8,7 +9,7 @@ function Button1({ text, color = "blue", onClick }) {
   return (
     <button
       onClick={onClick}
-      className={`${colors[color]} text-white px-5 py-2 rounded-lg`}
+      className={`${colors[color] || colors.blue} text-white px-5 py-2 rounded-lg`}
     >
       {text}
     </button>
