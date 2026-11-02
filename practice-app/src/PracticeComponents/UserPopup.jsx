@@ -16,7 +16,11 @@ function UserPopup() {
         setShowPopup(false);
         setName("");
         setEmail("");
+
+
     }
+
+  
   return (
     <div>
       {/* Opening pop-up button */}
@@ -26,6 +30,7 @@ function UserPopup() {
         text="Add User"
         
         onClick={() => setShowPopup(true)}
+        
       />
 
       {/* Popup Box working In this */}

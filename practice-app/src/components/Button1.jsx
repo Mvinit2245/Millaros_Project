@@ -1,5 +1,12 @@
 
-function Button1({ text, color = "blue", onClick }) {
+
+
+function Button1({ 
+  text, 
+  color = "green", 
+  onClick ,
+  disabled=false
+}) {
   const colors = {
     blue: "bg-blue-600 hover:bg-blue-700",
     green: "bg-green-600 hover:bg-green-700",
@@ -8,10 +15,13 @@ function Button1({ text, color = "blue", onClick }) {
 
   return (
     <button
+     
+      className={`${colors[color] || colors.blue} text-white px-5 py-2 rounded-lg disabled:opacity-50 disabled:cursor-not-allowed`}
       onClick={onClick}
-      className={`${colors[color] || colors.blue} text-white px-5 py-2 rounded-lg`}
+      disabled = {disabled}
     >
       {text}
+     
     </button>
   );
 }

@@ -12,6 +12,7 @@ import Users from './PracticeComponents/Users.jsx'
 import UserPopup from './PracticeComponents/UserPopup.jsx'
 
 import Products from './pages/Products.jsx'
+import Newpage from './pages/newPage.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -25,6 +26,8 @@ createRoot(document.getElementById('root')).render(
      {/* <Popup/> */}
      {/* <Users/> */}
      {/* <UserPopup/> */}
-     <Products/>
+     {/* <Products/> */}
+     <Newpage/>
+     
   </StrictMode>,
 )
