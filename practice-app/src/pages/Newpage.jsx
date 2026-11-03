@@ -9,16 +9,11 @@ function Newpage() {
     console.log("Current State:", showSecondButton);
   return (
     <div>
-
-        
    <Button1
-
    text="Button"
    onClick={() => setshowSecondButton([...showSecondButton, showSecondButton.length+1]) 
     
    }
-   
-   
    />
 
    {showSecondButton.map( (Button,index) =>( 
@@ -26,11 +21,9 @@ function Newpage() {
     key={index}
     text={`Button ${index+1}`}
     color='green'
-
     />
    )) 
-    
-   }
+}
      
     </div>
   )
