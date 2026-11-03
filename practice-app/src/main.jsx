@@ -13,6 +13,7 @@ import UserPopup from './PracticeComponents/UserPopup.jsx'
 
 import Products from './pages/Products.jsx'
 import Newpage from './pages/newPage.jsx'
+import SpreadEx from './pages/SpreadEx.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -27,7 +28,8 @@ createRoot(document.getElementById('root')).render(
      {/* <Users/> */}
      {/* <UserPopup/> */}
      {/* <Products/> */}
-     <Newpage/>
+     {/* <Newpage/> */}
+     <SpreadEx/>
      
   </StrictMode>,
 )
