@@ -1,6 +1,11 @@
 import React from 'react'
 
-function UserCard({name, role, email}) {
+function UserCard({
+  name, 
+  role, 
+  email, 
+  salary
+}) {
   return (
     <div className='p-5 border rounded-xl shadow-md '>
 
@@ -9,6 +14,7 @@ function UserCard({name, role, email}) {
         <p className='text-blue-600'>{role}</p>
 
         <p className='text-green-600'>{email}</p>
+        <p className='text-red-600'>{salary}</p>
       
     </div>
   )

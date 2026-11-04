@@ -19,7 +19,7 @@ function Newpage() {
    {showSecondButton.map( (Button,index) =>( 
     <Button1
     key={index}
-    text={`Button ${index+1}`}
+    text={`Button No :  ${index+1}`}
     color='green'
     />
    )) 
