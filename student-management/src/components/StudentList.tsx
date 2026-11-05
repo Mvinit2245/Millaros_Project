@@ -16,7 +16,7 @@ function StudentList({ students, onDelete }: StudentListProps) {
             </h2>
 
             {students.length === 0 ? (
-                <p>No students available</p>
+                <p>No Students Available Here</p>
             ) : (
                 students.map((student) => (
                     <StudentCard
