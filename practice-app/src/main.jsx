@@ -15,6 +15,7 @@ import Products from './pages/Products.jsx'
 import Newpage from './pages/newPage.jsx'
 import SpreadEx from './pages/SpreadEx.jsx'
 import Mapuse from './pages/Mapuse.jsx'
+import FilterEx from './pages/FilterEx.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -31,7 +32,8 @@ createRoot(document.getElementById('root')).render(
      {/* <Products/> */}
      {/* <Newpage/> */}
      {/* <SpreadEx/> */}
-     <Mapuse/>
+     {/* <Mapuse/> */}
+     <FilterEx/>
      
   </StrictMode>,
 )
