@@ -1,0 +1,1 @@
+function logMessage(msg: string): void {

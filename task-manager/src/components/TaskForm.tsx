@@ -4,10 +4,14 @@ import { useState } from "react";
 
 interface TaskFormProps {
     onAddTask: (title: string) => void;
+    
+  
+  
+  
 }
 
 function TaskForm({ onAddTask }: TaskFormProps) {
-
+    
     const [title, setTitle] = useState<string>("");
 
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
