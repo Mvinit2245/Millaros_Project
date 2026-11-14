@@ -4,10 +4,6 @@ import { useState } from "react";
 
 interface TaskFormProps {
     onAddTask: (title: string) => void;
-    
-  
-  
-  
 }
 
 function TaskForm({ onAddTask }: TaskFormProps) {
